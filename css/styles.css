@@ -165,7 +165,6 @@ footer {
   width: 100%;
   padding-top: 20px;
   text-align: center;
-  background-color: #f9f9f9; /* optional for visibility */
 }
 
 .copyright p {
@@ -845,6 +844,7 @@ footer {
 
 	footer {
 		text-align: center
+			background-color: #f9f9f9;
 	}
 
 	.social {
@@ -867,7 +867,7 @@ footer {
 	}
 }
 
-table {
+/* table {
   width: 100%;
 	height: 100%;
   border-collapse: collapse;
@@ -885,7 +885,7 @@ th, td {
 th {
   background-color: #f2f2f2;
   font-weight: bold;
-}
+} */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
