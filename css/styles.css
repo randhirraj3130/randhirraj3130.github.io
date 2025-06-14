@@ -162,13 +162,16 @@ footer {
 }
 
 .copyright {
-	padding-top: 20px;
-	text-align: center
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #f9f9f9; /* optional for visibility */
 }
 
 .copyright p {
-	margin: 0;
-	color: #74808a
+  margin: 0;
+  color: #74808a;
+  font-size: 0.9em;
 }
 
 .top {
@@ -589,6 +592,7 @@ footer {
 	color: #74808a;
 	margin: 0 0 15px 0;
 	font-size: 0.9em
+	text-align: left;
 }
 
 #skills {
@@ -618,10 +622,38 @@ footer {
 	cursor: default;
 	font-size: 1.2em
 }
+#clients {
+	padding: 50px 15px;
+	text-align: center
+}
+
+#clients h2 {
+	color: #374054;
+	margin-bottom: 50px
+}
+
+#clients ul {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 800px
+}
+
+#clients li {
+	display: inline-block;
+	margin: 7px;
+	padding: 5px 10px;
+	color: #374054;
+	background: #e4e4ea;
+	list-style: none;
+	cursor: default;
+	font-size: 1.2em
+}
+
 
 #contact {
 	padding: 50px 15px;
-	background: #006622;
+	background: #CCCCFF;
 	text-align: center
 }
 
@@ -833,4 +865,54 @@ footer {
 		font-size: 0.9em;
 		padding: 5px 10px
 	}
+}
+
+table {
+  width: 100%;
+	height: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+	margin-top: 100px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 30px;
+}
+
+.contact-card {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-card img {
+  width: 25px;
+  margin-bottom: 15px;
+}
+
+.contact-card h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  color: #000;
+  font-size: 0.95em;
+  margin: 0;
+  line-height: 1.6;
 }
